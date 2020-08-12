@@ -1,11 +1,10 @@
 ---
 title: The toxicity of white environmentalism
 date: "2020-07-28"
-featuredImage: './ev.jpg'
+featuredImage: "./ev.jpg"
 tags: test
 published: true
-description:
-  BIPOC environmentalists should be wary of the toxic white environmentalists who will shamelessly virtue signal while silencing and gaslighting those who dare speak truth to power.
+description: BIPOC environmentalists should be wary of the toxic white environmentalists who will shamelessly virtue signal while silencing and gaslighting those who dare speak truth to power.
 ---
 
 > “I have almost reached the regrettable conclusion that the Negro’s great stumbling block in his stride toward freedom is not the White Citizen’s Counciler or the Ku Klux Klanner, but the white moderate, who is more devoted to “order” than to justice; who prefers a negative peace which is the absence of tension to a positive peace which is the presence of justice…” — [Martin Luther King, Jr. (1963)](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html)
@@ -43,8 +42,8 @@ Until someone invents a way to harness the boundless energy of a white woman’s
 
 ## Resources
 
-*   [Intersectional Environmentalist](https://www.intersectionalenvironmentalist.com/) — Resources for intersectional environmentalism.
-*   [Front and Centered](https://frontandcentered.org/) — Washington state coalition of climate justice-focused organizations.
-*   [Got Green Seattle](https://gotgreenseattle.org/) — South Seattle-based organization based on environmental, racial, and economic justice
-*   [Green Voices of Color](https://twitter.com/i/lists/1087490564977819648) — A curated list by [@MaryHeglar](https://twitter.com/MaryHeglar)
-*   [50 Black Voices in the Green Space](https://www.instagram.com/p/CBOthLgncU_/?igshid=1p7sp5rdnwg5x)   — A curated list by [@alluviamag](https://www.instagram.com/alluviamag/)
+- [Intersectional Environmentalist](https://www.intersectionalenvironmentalist.com/) — Resources for intersectional environmentalism.
+- [Front and Centered](https://frontandcentered.org/) — Washington state coalition of climate justice-focused organizations.
+- [Got Green Seattle](https://gotgreenseattle.org/) — South Seattle-based organization based on environmental, racial, and economic justice
+- [Green Voices of Color](https://twitter.com/i/lists/1087490564977819648) — A curated list by [@MaryHeglar](https://twitter.com/MaryHeglar)
+- [50 Black Voices in the Green Space](https://www.instagram.com/p/CBOthLgncU_/?igshid=1p7sp5rdnwg5x) — A curated list by [@alluviamag](https://www.instagram.com/alluviamag/)

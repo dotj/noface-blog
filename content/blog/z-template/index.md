@@ -1,7 +1,7 @@
 ---
 title: Template
 date: "2015-05-28"
-featuredImage: './bench-accounting-unsplash.jpg'
+featuredImage: "./bench-accounting-unsplash.jpg"
 tags: test
 # published: true
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
@@ -24,7 +24,7 @@ description: This is a custom description for SEO and Open Graph purposes, rathe
 - Fusce id mi elit.
 - Donec sit amet lectus lorem.
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Pellentesque et arcu magna.** *Aliquam laoreet purus lectus, at vehicula elit feugiat ut.* Sed facilisis odio id erat volutpat, at porta nisi [vestibulum](http://google.com). Curabitur condimentum orci urna, ac finibus nisi elementum ac. Curabitur nec feugiat urna, nec cursus turpis. Nam tincidunt libero ut dui suscipit tincidunt. Ut auctor egestas nisi eu blandit. Donec vitae urna augue. Integer bibendum neque sed diam varius semper. Duis dignissim quis diam nec dignissim.
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Pellentesque et arcu magna.** _Aliquam laoreet purus lectus, at vehicula elit feugiat ut._ Sed facilisis odio id erat volutpat, at porta nisi [vestibulum](http://google.com). Curabitur condimentum orci urna, ac finibus nisi elementum ac. Curabitur nec feugiat urna, nec cursus turpis. Nam tincidunt libero ut dui suscipit tincidunt. Ut auctor egestas nisi eu blandit. Donec vitae urna augue. Integer bibendum neque sed diam varius semper. Duis dignissim quis diam nec dignissim.
 
 ### Aliquam sed risus metus.
 

@@ -2,11 +2,10 @@
 title: Ecofacism
 icon: 🐶
 date: 2020-08-03
-featuredImage: './bench-accounting-unsplash.jpg'
+featuredImage: "./bench-accounting-unsplash.jpg"
 tags: test
 published: true
-description:
-  Patrick Crusius was an environmentalist. He wrote a manifesto titled, “An Inconvenient Truth.” He looked up to Al Gore, criticized systems of capitalism and urban sprawl, and loved nature. His “solution” for climate change was genocide. Exactly one year ago, he massacred 23 people in the 2019 El Paso shooting.
+description: Patrick Crusius was an environmentalist. He wrote a manifesto titled, “An Inconvenient Truth.” He looked up to Al Gore, criticized systems of capitalism and urban sprawl, and loved nature. His “solution” for climate change was genocide. Exactly one year ago, he massacred 23 people in the 2019 El Paso shooting.
 ---
 
 ## The 2019 El Paso shooting

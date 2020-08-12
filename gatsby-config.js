@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'noface(book)',
-    description:
-      'A personal blog on tech and equity',
-    author: '@dotj',
+    title: "noface(book)",
+    description: "A personal blog on tech and equity",
+    author: "@dotj"
   },
   pathPrefix: "/noface-blog",
   plugins: [
@@ -15,22 +14,22 @@ module.exports = {
           `Inconsolata\:200,300,400`,
           `Fira Code:\:300,400`
         ],
-        display: 'swap'
+        display: "swap"
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
-        name: 'blog',
-      },
+        name: "blog"
+      }
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content/assets`,
-        name: 'assets',
-      },
+        name: "assets"
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -55,50 +54,50 @@ module.exports = {
               maxWidth: 800,
               showCaptions: false,
               tracedSVG: false
-            },
+            }
           },
           {
-            resolve: 'gatsby-remark-external-links',
+            resolve: "gatsby-remark-external-links",
             options: {
-              target: '_blank',
-              rel: 'nofollow noopener noreferrer',
-            },
+              target: "_blank",
+              rel: "nofollow noopener noreferrer"
+            }
           },
-          `gatsby-remark-responsive-iframe`,
-        ],
-      },
+          `gatsby-remark-responsive-iframe`
+        ]
+      }
     },
-    'gatsby-plugin-typescript',
-    'gatsby-plugin-react-helmet',
+    "gatsby-plugin-typescript",
+    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#fff',
-        theme_color: '#fff',
-        display: 'minimal-ui',
-        icon: 'content/assets/icon.png', // This path is relative to the root of the site.
-      },
+        name: "gatsby-starter-default",
+        short_name: "starter",
+        start_url: "/",
+        background_color: "#fff",
+        theme_color: "#fff",
+        display: "minimal-ui",
+        icon: "content/assets/icon.png" // This path is relative to the root of the site.
+      }
     },
-    'gatsby-plugin-offline',
-    'gatsby-plugin-dark-mode',
+    "gatsby-plugin-offline",
+    "gatsby-plugin-dark-mode",
     {
-      resolve: 'gatsby-background-image-es5',
+      resolve: "gatsby-background-image-es5",
       options: {
         // add your own characters to escape, replacing the default ':/'
-        specialChars: '/:',
-      },
+        specialChars: "/:"
+      }
     }
-  ],
-}
+  ]
+};

@@ -1,0 +1,42 @@
+.splash-title {
+  background: var(--main-bg);
+  background: var(--gradient);
+  display: block;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.splash-console {
+  background: var(--main-bg);
+  background: var(--transparent-bg);
+  padding: 1rem;
+  display: block;
+  margin: 4rem 2rem 4rem 2rem;
+  max-width: 30rem;
+}
+@media only screen and (max-width: 600px) {
+  .splash-console {
+      margin: 0rem;
+  }
+}
+
+.splash-title-header {
+  font-family: var(--monospace);
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: normal;
+  text-align: left;
+}
+@media only screen and (max-width: 600px) {
+  .splash-title-header {
+      font-size: 2rem;
+      line-height: 2rem;
+  }
+}
+
+.splash-title-subheader {
+  font-size: 1.0rem;
+  font-family: var(--monospace);
+  font-weight: normal;
+  text-align: left;
+}

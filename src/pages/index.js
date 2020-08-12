@@ -1,14 +1,13 @@
-import { graphql, Link } from "gatsby"
-import React from "react"
-import Content from "../components/content"
-import Main from "../components/main"
-import SEO from "../components/seo"
-import SplashTitle from "../components/splash-title"
-
+import { graphql, Link } from "gatsby";
+import React from "react";
+import Content from "../components/content";
+import Main from "../components/main";
+import SEO from "../components/seo";
+import SplashTitle from "../components/splash-title";
 
 const IndexPage = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
+  const siteTitle = data.site.siteMetadata.title;
+  const posts = data.allMarkdownRemark.edges;
 
   return (
     <Main location={location}>
@@ -18,33 +17,31 @@ const IndexPage = ({ data, location }) => {
       <SEO title="All posts" />
       <Content>
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
+          const title = node.frontmatter.title || node.fields.slug;
           return (
             <article key={node.fields.slug}>
               <header>
                 <h3>
-                  <Link to={node.fields.slug}>
-                    {title}
-                  </Link>
+                  <Link to={node.fields.slug}>{title}</Link>
                 </h3>
               </header>
               <p class="detail">{node.frontmatter.date}</p>
               <section>
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
+                    __html: node.frontmatter.description || node.excerpt
                   }}
                 />
               </section>
             </article>
-          )
+          );
         })}
       </Content>
     </Main>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query {
@@ -54,7 +51,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {frontmatter: {published: {eq: true}}},
+      filter: { frontmatter: { published: { eq: true } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -73,4 +70,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
