@@ -13,7 +13,7 @@ class Toggler extends React.Component {
               onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
               checked={theme === 'dark'}
             />{' '}
-            <strong>Dark mode toggle</strong>
+            <strong>Dark mode</strong>
           </label>
         )}
       </ThemeToggler>

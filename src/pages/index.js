@@ -28,7 +28,7 @@ const IndexPage = ({ data, location }) => {
                   </Link>
                 </h3>
               </header>
-              {node.frontmatter.date}
+              <p class="detail">{node.frontmatter.date}</p>
               <section>
                 <p
                   dangerouslySetInnerHTML={{

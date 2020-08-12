@@ -138,19 +138,36 @@ li.footnote-list-item {
 .splash-console {
     background: var(--main-bg);
     background: var(--transparent-bg);
-    margin: 4rem 2rem 4rem 2rem;
     padding: 1rem;
-    min-width: 20rem;
-    max-width: 30rem;
     display: block;
 }
 
 .splash-title-header {
     font-family: var(--monospace);
     font-size: 3rem;
-    font-weight: normal;
     line-height: 3rem;
+    font-weight: normal;
     text-align: left;
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+    .splash-console {
+        margin: 4rem 2rem 4rem 2rem;
+        max-width: 30rem;
+    }
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .splash-title-header {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .splash-console {
+        margin: 0rem;
+    }
 }
 
 .splash-title-subheader {
@@ -177,4 +194,31 @@ li.footnote-list-item {
 .content {
     padding: 1rem;
     background: var(--post-bg);
+}
+
+
+/* Mobile */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.example {background: pink;}
 }
