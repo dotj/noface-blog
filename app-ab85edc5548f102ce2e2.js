@@ -1326,7 +1326,7 @@
                 var r = "Navigated to " + e;
                 n.announcementRef.current &&
                   n.announcementRef.current.innerText !== r &&
-                    (n.announcementRef.current.innerText = r);
+                  (n.announcementRef.current.innerText = r);
               });
             }),
             (n.render = function() {
@@ -1420,16 +1420,16 @@
                 ? this.state.pageResources !== t.pageResources ||
                     this.state.pageResources.component !==
                       t.pageResources.component ||
-                      this.state.pageResources.json !== t.pageResources.json ||
-                        !(
-                          this.state.location.key === t.location.key ||
-                          !t.pageResources.page ||
-                          (!t.pageResources.page.matchPath &&
-                            !t.pageResources.page.path)
-                        ) ||
-                          (function(e, t, n) {
-                            return L(e.props, t) || L(e.state, n);
-                          })(this, e, t)
+                    this.state.pageResources.json !== t.pageResources.json ||
+                    !(
+                      this.state.location.key === t.location.key ||
+                      !t.pageResources.page ||
+                      (!t.pageResources.page.matchPath &&
+                        !t.pageResources.page.path)
+                    ) ||
+                    (function(e, t, n) {
+                      return L(e.props, t) || L(e.state, n);
+                    })(this, e, t)
                 : (this.loadResources(e.location.pathname), !1);
             }),
             (n.render = function() {

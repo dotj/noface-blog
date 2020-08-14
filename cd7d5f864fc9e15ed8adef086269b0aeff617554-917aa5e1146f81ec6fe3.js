@@ -949,8 +949,8 @@
         return (
           !!t &&
           (0, i.isBrowser)() &&
-            void 0 !== window.matchMedia &&
-            !!window.matchMedia(t).matches
+          void 0 !== window.matchMedia &&
+          !!window.matchMedia(t).matches
         );
       };
     },
