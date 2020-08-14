@@ -26,7 +26,7 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-3e70d4bb5bfa0ff447cf.js"
+    "url": "webpack-runtime-e613808843e1acad2b4c.js"
   },
   {
     "url": "styles.0ecc41710abbe7b6bf65.css"
@@ -38,29 +38,21 @@ self.__precacheManifest = [
     "url": "framework-b5b229d58c3c710d5429.js"
   },
   {
-    "url": "app-f12bde3acd5b39ef2c9b.js"
+    "url": "app-d78f15ad983b9e8efdfb.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-f3d0a21fe8149f33caf4.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "11ce537f2601f3aba51cc23caa15061f"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "c7047792c6f91b88e0d9abc0cd819e92"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "f83275190a83bb316ea6cb58bceec2e5"
+    "revision": "ca305bd09d1c1a37c2abf2565c718354"
   },
   {
     "url": "polyfill-1bb330181573b3494350.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "34988cc285bb6a44c75a9596bfd45045"
+    "revision": "80450b1ed6d9c793f48224d8c5b45f5f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -79,12 +71,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/noface-blog`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/noface-blog/app-f12bde3acd5b39ef2c9b.js`))) {
+  if (!resources || !(await caches.match(`/app-d78f15ad983b9e8efdfb.js`))) {
     return await fetch(event.request)
   }
 
@@ -97,7 +89,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/noface-blog/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
