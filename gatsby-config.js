@@ -4,7 +4,7 @@ module.exports = {
     description: "A personal blog on tech and equity",
     author: "@dotj"
   },
-  pathPrefix: "/noface-blog",
+  pathPrefix: "/",
   plugins: [
     {
       resolve: `gatsby-plugin-google-fonts`,
@@ -81,8 +81,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "gatsby-starter-default",
-        short_name: "starter",
+        name: "noface.blog",
+        short_name: "noface.blog",
         start_url: "/",
         background_color: "#fff",
         theme_color: "#fff",

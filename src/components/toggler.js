@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeToggler } from "gatsby-plugin-dark-mode";
 
-// TODO
+// TODO - https://codepen.io/chriscoyier/pen/vYERPwM
 class Toggler extends React.Component {
   render() {
     return (

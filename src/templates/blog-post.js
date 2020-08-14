@@ -1,24 +1,24 @@
 import { graphql, Link } from "gatsby";
 import * as React from "react";
 import Content from "../components/content";
+import HeroHeader from "../components/hero-header";
 import Main from "../components/main";
 import SEO from "../components/seo";
-import SplashTitle from "../components/splash-title";
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const post = data.markdownRemark;
 
   return (
-    <Main location={location} title={siteTitle}>
+    <Main location={location} siteTitle={siteTitle}>
       <header>
-        <SplashTitle
+        <HeroHeader
           title={post.frontmatter.title}
           date={post.frontmatter.date}
           background={post.frontmatter.featuredImage.childImageSharp.fluid}
         >
           {post.frontmatter.description}
-        </SplashTitle>
+        </HeroHeader>
       </header>
       <Content>
         <SEO

@@ -4,14 +4,10 @@ html {
     --sans-serif: 'Lato', Arial, Helvetica, sans-serif;
     --monospace: 'Inconsolata', 'Courier New', Courier, monospace;
     --max-screen-width: 600px;
-
-    display: table-cell;
-    vertical-align: middle;
 }
 
 body {
     /* Light theme */
-
     --main-bg: #FFF;
     --post-bg: #F8F8F8;
     --transparent-bg: rgba(255, 255, 255, 80%);
@@ -26,7 +22,6 @@ body {
 }
 
 body.dark {
-    /* Dark theme */
     -webkit-font-smoothing: antialiased;
 
     --main-bg: #000;
@@ -120,9 +115,41 @@ code {
     white-space: pre-wrap;
 }
 
+aside {
+    background-color: var(--accent1);
+    font-size: 0.8rem;
+    float: right;
+    width: 10rem;
+    padding-left: 10rem;
+}
 
 ::selection, ::-moz-selection {
     background: var(--accent1);
+}
+
+/* Tooltip */
+.tooltip {
+    color: var(--accent1);
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    color: var(--main-text);
+    min-width: 10rem;
+    max-width: 20rem;
+    background-color: var(--transparent-bg);
+    text-align: left;
+    border: 1px solid var(--neutral);
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 /* Footnotes */
@@ -144,12 +171,54 @@ li.footnote-list-item {
     color: var(--accent1);
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .main {
-    max-width: 50rem;
     padding: 1rem;
+    max-width: 50rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 0rem;
+    }
 }
 
 .content {
     padding: 1rem;
     background: var(--post-bg);
+}
+
+/* Menu */
+.menu {
+    background-color: var(--post-bg);
+    font-size: 1.0rem;
+    font-family: var(--monospace);
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+}
+
+.menu ul {
+    display: inline;
+}
+
+.menu li {
+    display: inline;
+    padding: 0rem 0.5rem;
+    margin: 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 0rem;
+    }
+
+    .menu li {
+        padding: 0.2rem;
+        display: block;
+    }
 }

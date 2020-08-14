@@ -1,18 +1,20 @@
-import { Link } from "gatsby";
 import React from "react";
-import Toggler from "./toggler";
+import { Link } from "gatsby";
+// import Menu from "./menu";
 
-const Main = ({ title, children }) => {
+const Main = ({ siteTitle, title, children }) => {
   let header = (
     <h1>
-      <Link to={`/`}>{title}</Link>
+      <Link to={`/`}>{siteTitle}</Link>
     </h1>
   );
   return (
-    <div class="main">
-      <Toggler />
-      <header>{header}</header>
-      <main>{children}</main>
+    <div class="wrapper">
+      <div class="main">
+        {/* <Menu siteTitle={title} /> */}
+        <header>{header}</header>
+        <main>{children}</main>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,9 @@
 # noface-blog
 
+## Content
+
+Main content is located at [/content/blog](https://github.com/dotj/noface-blog/tree/master/content/blog).
+
 ## Usage
 
 To compile and test the site locally:

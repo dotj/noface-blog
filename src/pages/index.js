@@ -10,9 +10,10 @@ const IndexPage = ({ data, location }) => {
   const posts = data.allMarkdownRemark.edges;
 
   return (
-    <Main location={location}>
+    <Main>
       <SplashTitle title={siteTitle}>
-        a.k.a. "no fac(ial recognition technology under our neoliberal regim)e"
+        A blog on tech and equity. Also known as: no fac(ial recognition
+        technology under our neoliberal regim)e.
       </SplashTitle>
       <SEO title="All posts" />
       <Content>
@@ -21,9 +22,9 @@ const IndexPage = ({ data, location }) => {
           return (
             <article key={node.fields.slug}>
               <header>
-                <h3>
+                <h2>
                   <Link to={node.fields.slug}>{title}</Link>
-                </h3>
+                </h2>
               </header>
               <p class="detail">{node.frontmatter.date}</p>
               <section>
