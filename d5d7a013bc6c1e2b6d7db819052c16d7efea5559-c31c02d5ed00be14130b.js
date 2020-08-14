@@ -14,8 +14,8 @@
         return (
           !1 !== a(e) &&
           "function" == typeof (t = e.constructor) &&
-            !1 !== a((n = t.prototype)) &&
-              !1 !== n.hasOwnProperty("isPrototypeOf")
+          !1 !== a((n = t.prototype)) &&
+          !1 !== n.hasOwnProperty("isPrototypeOf")
         );
       };
     },
