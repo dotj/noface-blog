@@ -1,24 +1,24 @@
 import { graphql, Link } from "gatsby";
 import * as React from "react";
 import Content from "../components/content";
-import HeroHeader from "../components/hero-header";
 import Main from "../components/main";
 import SEO from "../components/seo";
+import SplashTitle from "../components/splash-title";
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const post = data.markdownRemark;
 
   return (
-    <Main location={location} siteTitle={siteTitle}>
+    <Main siteTitle={siteTitle}>
       <header>
-        <HeroHeader
+        <SplashTitle
           title={post.frontmatter.title}
           date={post.frontmatter.date}
           background={post.frontmatter.featuredImage.childImageSharp.fluid}
         >
           {post.frontmatter.description}
-        </HeroHeader>
+        </SplashTitle>
       </header>
       <Content>
         <SEO
@@ -27,7 +27,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         />
         <article>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr />
         </article>
 
         <nav>
@@ -56,10 +55,12 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
-        icon
         featuredImage {
           childImageSharp {
-            fluid(cropFocus: CENTER, maxWidth: 600) {
+            fluid(
+              cropFocus: CENTER
+              traceSVG: { color: "#000" }
+            ) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }

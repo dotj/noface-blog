@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "gatsby";
-// import Menu from "./menu";
+import React from "react";
 
 const Main = ({ siteTitle, title, children }) => {
   let header = (
@@ -10,6 +9,7 @@ const Main = ({ siteTitle, title, children }) => {
   );
   return (
     <div class="wrapper">
+      {/* <Toggler/> */}
       <div class="main">
         {/* <Menu siteTitle={title} /> */}
         <header>{header}</header>

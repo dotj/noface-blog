@@ -23,12 +23,11 @@ const SplashTitle = ({ title, date, background, children }) => {
         Tag="section"
         fluid={background}
         className="splash-title"
-        backgroundPosition="center"
       >
         <center>
           <div class="splash-console">
             <h1 class="splash-title-header">
-              <Link to={`/`}>{title}</Link>
+              {title}
             </h1>
             <p class="splash-title-subheader">{children}</p>
             <p class="detail">{date}</p>
