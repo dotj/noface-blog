@@ -11,9 +11,10 @@ const IndexPage = ({ data, location }) => {
 
   return (
     <Main>
-      <SplashTitle title={siteTitle}>
-        A blog on tech and equity. Also known as: no fac(ial recognition
-        technology under our neoliberal regim)e.
+      <SplashTitle title={siteTitle}>       
+        <p class="splash-text">a.k.a. no fac(ial recognition technology under our neoliberal regim)e.</p>
+
+        <p class="splash-text">A personal blog on tech and equity with a focus on racial justice, feminism, environmentalism, and privacy.</p>
       </SplashTitle>
       <SEO title="All posts" />
       <Content>
