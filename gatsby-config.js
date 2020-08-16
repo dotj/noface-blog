@@ -12,7 +12,6 @@ module.exports = {
         fonts: [
           `Lato\:300,300i,400,400i`,
           `Inconsolata\:200,300,400`,
-          `Fira Code:\:300,400`
         ],
         display: "swap"
       }
@@ -51,9 +50,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 800,
+              maxWidth: 1280,
               showCaptions: false,
-              tracedSVG: false
             }
           },
           {
@@ -63,7 +61,26 @@ module.exports = {
               rel: "nofollow noopener noreferrer"
             }
           },
-          `gatsby-remark-responsive-iframe`
+          `gatsby-remark-responsive-iframe`,
+          {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                danger: {
+                  classes: "danger",
+                  details: true,
+                },
+                info: {
+                  title: "optional",
+                  details: true,
+                },
+                testdanger: {
+                  classes: "testdanger",
+                  details: false,
+                },
+              },
+            },
+          },
         ]
       }
     },
@@ -84,8 +101,8 @@ module.exports = {
         name: "noface.blog",
         short_name: "noface.blog",
         start_url: "/",
-        background_color: "#fff",
-        theme_color: "#fff",
+        background_color: "#000",
+        theme_color: "#000",
         display: "minimal-ui",
         icon: "content/assets/icon.png" // This path is relative to the root of the site.
       }

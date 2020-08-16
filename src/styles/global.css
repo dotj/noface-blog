@@ -3,37 +3,40 @@
 html {
     --sans-serif: 'Lato', Arial, Helvetica, sans-serif;
     --monospace: 'Inconsolata', 'Courier New', Courier, monospace;
-    --max-screen-width: 600px;
+
+    --short-transtition: all 0.3s ease;
+    --long-transtition: all 0.5s ease;
 }
 
-body {
-    /* Light theme */
+/* body {
     --main-bg: #FFF;
     --post-bg: #F8F8F8;
     --transparent-bg: rgba(255, 255, 255, 80%);
+    --transparent-accent: rgba(197, 155, 227, 0.8);
     --gradient: linear-gradient(90deg, #5e4d9c 0%, #e08c7d 100%);
     --main-text: #333;
     --accent1: #c59be3;
     --accent2: #e08c7d;
     --neutral: #ccc;
 
-    transition: background-color 0.3s;
+    transition: var(--short-transtition);
     background: var(--main-bg);
-}
+} */
 
-body.dark {
+body {
     -webkit-font-smoothing: antialiased;
 
     --main-bg: #000;
     --post-bg: #1a1a1a;
-    --transparent-bg: rgba(0, 0, 0, 80%);
+    --transparent-bg: rgba(0, 0, 0, 75%);
+    --transparent-accent: rgba(94, 77, 156, 90%);
     --gradient: linear-gradient(90deg, #0e2a4f 0%, #5e4d9c 100%);
     --main-text: #ddd;
     --accent1: #5e4d9c;
-    --accent2: #0e2a4f;
+    --accent2: #c59be3;
     --neutral: #333;
 
-    transition: background-color 0.3s;
+    transition: var(--short-transtition);
     background: var(--main-bg);
 }
 
@@ -66,7 +69,7 @@ hr {
 a {
     text-decoration: none;
 	color: var(--darkgrey);
-    border-bottom: 2px solid var(--accent1);
+    border-bottom: 0.1rem solid var(--accent1);
     transition: background-color 0.3s;
 }
 
@@ -87,21 +90,16 @@ mark {
     background: var(--accent1);
 }
 
-ul, ol {
-    color: var(--darkgreen);
+::selection, ::-moz-selection {
+    background: var(--accent1);
 }
 
 blockquote {
+    margin: 0rem;
     background: var(--main-bg);
     display: block;
     padding: 0.1rem 1rem;
     font-style: italic;
-}
-
-@media only screen and (max-width: 600px) {
-    blockquote {
-        margin: 0rem;
-    }
 }
 
 code {
@@ -115,49 +113,97 @@ code {
     white-space: pre-wrap;
 }
 
-aside {
-    background-color: var(--accent1);
-    font-size: 0.8rem;
-    float: right;
-    width: 10rem;
-    padding-left: 10rem;
-}
+@media only screen and (min-width: 640px) {
+    blockquote, code {
+        margin: 0rem 1rem;
+    }
+} 
 
-::selection, ::-moz-selection {
-    background: var(--accent1);
-}
+/* Footnotes formatting */
 
-/* Tooltip */
-.tooltip {
-    color: var(--accent1);
+sup, sub {
+    vertical-align: baseline;
     position: relative;
-    display: inline-block;
-}
-  
-.tooltip .tooltiptext {
-    visibility: hidden;
-    color: var(--main-text);
-    min-width: 10rem;
-    max-width: 20rem;
-    background-color: var(--transparent-bg);
-    text-align: left;
-    border: 1px solid var(--neutral);
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
+    top: -0.4em;
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+sub { 
+    top: 0.4em; 
 }
-
-/* Footnotes */
 
 .footnotes,
 p.footnote-paragraph,
 li.footnote-list-item {
     font-size: 0.8rem;
+}
+
+.footnotes hr {
+    display: none;
+}
+
+a.footnote-ref, a.footnote-backref {
+    color: var(--accent2);
+    border: none;
+    font-weight: normal;
+}
+
+a.footnote-ref:hover, a.footnote-backref:hover {
+    color: var(--main-text);
+}
+
+/* Annotations */
+
+a.annotation {
+    color: var(--accent2);
+    background-color: transparent;
+    border: none;
+    font-weight: normal;
+}
+
+a.annotation:hover {
+    color: var(--accent1);
+}
+
+a.annotation {
+    color: var(--accent2);
+    background-color: transparent;
+    border: none;
+    -webkit-transition: var(--long-transtition);
+    -moz-transition: var(--long-transtition);
+    -o-transition: var(--long-transtition);
+    transition: var(--long-transtition);
+}
+
+a.annotation:hover {
+    color: var(--accent1);
+}
+ 
+a.annotation span {
+    z-index: -1;
+    opacity: 0;
+    position: fixed;
+    right: 1rem;
+    left: 1rem;
+    bottom: 1rem;
+    padding: 1rem;
+    max-width: 30rem;
+    color: var(--main-text);
+    font-size: 0.8rem;
+    line-height: 1.0rem;
+    background-color: var(--transparent-accent);
+    -webkit-transition: var(--long-transtition);
+    -moz-transition: var(--long-transtition);
+    -o-transition: var(--long-transtition);
+    transition: var(--long-transtition);
+}
+
+a.annotation:hover span {
+    z-index: 2;
+    opacity: 1;
+    -webkit-transition: var(--long-transtition);
+    -moz-transition: var(--long-transtition);
+    -o-transition: var(--long-transtition);
+    transition: var(--long-transtition);
 }
 
 /* Class styles */
@@ -177,48 +223,17 @@ li.footnote-list-item {
 }
 
 .main {
-    padding: 1rem;
-    max-width: 50rem;
+    padding: 0rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 640px) {
     .main {
-        padding: 0rem;
+        padding: 1rem;
+        max-width: 50rem;
     }
 }
 
 .content {
     padding: 1rem;
     background: var(--post-bg);
-}
-
-/* Menu */
-.menu {
-    background-color: var(--post-bg);
-    font-size: 1.0rem;
-    font-family: var(--monospace);
-    text-transform: uppercase;
-    font-weight: normal;
-    text-align: center;
-}
-
-.menu ul {
-    display: inline;
-}
-
-.menu li {
-    display: inline;
-    padding: 0rem 0.5rem;
-    margin: 0rem;
-}
-
-@media only screen and (max-width: 600px) {
-    .main {
-        padding: 0rem;
-    }
-
-    .menu li {
-        padding: 0.2rem;
-        display: block;
-    }
 }

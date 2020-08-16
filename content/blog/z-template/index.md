@@ -1,23 +1,82 @@
 ---
 title: Template
 date: "2015-05-28"
-featuredImage: "./bench-accounting-unsplash.jpg"
 tags: test
 # published: true
+featuredImage: "../../assets/chan-hoi-unsplash.jpg"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ---
 
-# Lorem ipsum dolor sit amet
+# Lorem ipsum dolor sit amet with footnotes
 
 Consectetur adipiscing elit.[^f1] Donec ultricies velit et consectetur placerat.[^f2] In et nulla non sem elementum tincidunt. Donec rhoncus, dui tincidunt accumsan mollis, augue urna fringilla justo, eu hendrerit quam elit id ante. Aenean dignissim elementum tellus, quis laoreet ex porttitor a. Curabitur faucibus ornare fermentum. Nullam consequat nisi augue, non convallis mauris finibus at. Nulla eu massa ac libero blandit fermentum. Integer rutrum, velit ut vulputate vestibulum, ex tellus molestie ex, sed pretium eros nulla at augue. Fusce sagittis libero a justo feugiat aliquet. Vivamus rutrum sit amet diam non vulputate. Curabitur luctus eu ligula in volutpat. Aliquam a urna nec velit eleifend hendrerit. In ut fringilla ipsum. Nunc porta, diam a faucibus finibus, nisi purus mollis elit, non rhoncus mi elit eu nulla. Donec nec mauris quis ligula venenatis ultricies.
 
-<mark>This is highlighted text.</mark>
+## Annotations with custom clasees
 
-<aside>This is an aside.</aside>
+An <a class="annotation">example<span>A sidenote</span></a>
 
-<div class="tooltip">Hover over me
-  <span class="tooltiptext">Tooltip text</span>
-</div>
+<p>Some text here.<a class="annotation">🖊<span>
+  In ut fringilla ipsum. Nunc porta, diam a faucibus finibus, nisi purus mollis elit, non rhoncus mi elit eu nulla. Donec nec mauris quis ligula venenatis ultricies.
+  </span></a> This is very cool.
+</p>
+
+<p>OwO? What's this? A down arrow?<a class="annotation">▼<span>
+  In ut fringilla ipsum. Nunc porta, diam a faucibus finibus, nisi purus mollis elit, non rhoncus mi elit eu nulla. Donec nec mauris quis ligula venenatis ultricies. An interesting and informative comment appears here, as if by magic, again!!</span></a> So very cool.
+</p>
+
+<p>An up arrow.<a class="annotation">▲<span>
+  In ut fringilla ipsum. Nunc porta, diam a faucibus finibus, nisi purus mollis elit, non rhoncus mi elit eu nulla. Donec nec mauris quis ligula venenatis ultricies. An interesting and informative comment appears here, as if by magic, again!!</span></a> So very cool.
+</p>
+
+<p>Or I could simply highlight a <a class="annotation">keyword.<span>
+  And then explain that keyword.</span></a> 
+</p> In ut fringilla ipsum. Nunc porta, diam a faucibus finibus, nisi purus mollis elit, non rhoncus mi elit eu nulla. Donec nec mauris quis ligula venenatis ultricies.
+
+
+## Text replacement test
+
+<p>Here's a <span class="the-trick">cool</span> trick for replacing text with an icon font icon inline. Copying and pasting still works normally. It might be useful if you want to use a wordmark as an icon among other things. (Highlight the first sentece and copy/paste.)</p>
+
+
+<!-- ## Annotations with remark custom blocks
+
+Test from [gatsby-remark-custom-blocks](https://www.npmjs.com/package/gatsby-remark-custom-blocks)
+
+[[danger]]
+| Danger content
+ 
+[[info | This is a title!]]
+| Info content with a title
+
+One two three four, this is a test 
+
+[[testdanger]]
+| another test
+
+Markdown block:
+
+```md
+[[danger]]
+| content
+ 
+[[info | This is a title!]]
+| content
+```
+
+Resulting HTML:
+
+```html
+<details class="custom-block danger">
+  <div class="custom-block-body"><p>content</p></div>
+</details>
+ 
+<details class="custom-block">
+  <summary class="custom-block-heading"> This is a title! </summary>
+  <div class="custom-block-body"><p>content</p></div>
+</details>
+``` -->
+
+## Moving on...
 
 ```md
 title: Post One

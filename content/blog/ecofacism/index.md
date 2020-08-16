@@ -1,19 +1,29 @@
 ---
 title: Ecofacism
-icon: 🐶
 date: 2020-08-03
-featuredImage: "./andrew-coelho-forest-unsplash.jpg" # https://unsplash.com/photos/aL7SA1ASVdQ
 tags: test
 published: true
-description: Patrick Crusius loved nature, criticized systems of capitalism and urban sprawl, and wrote an environmental manifesto titled, “An Inconvenient Truth.” His “solution” for climate change was genocide. Exactly one year ago, he massacred 23 people in the 2019 El Paso shooting.
+featuredImage: "./andrew-coelho-forest-unsplash.jpg" # https://unsplash.com/photos/aL7SA1ASVdQ
+description:
+  Patrick Crusius loved nature, criticized systems of capitalism and urban sprawl, and wrote an environmental manifesto titled, “An Inconvenient Truth.” His “solution” for climate change was racial genocide. Exactly one year ago, he massacred 23 people in the 2019 El Paso shooting.
 ---
 
 ## The 2019 El Paso shooting
 
-In his manifesto, [Crusius explicitly states that his attack is “a response to the Hispanic invasion of Texas.”](https://time.com/5874088/el-paso-shooting-racism/) Aside from the [convenient lack of police brutality](https://www.nytimes.com/2019/08/09/us/el-paso-suspect-confession.html), this particular massacre also highlights a particularly dangerous strain of white environmentalism: ecofascism.
+In his manifesto, Crusius states that his attack is “a response to the Hispanic invasion of Texas.”[^1] Along with the convenient lack of police brutality[^2], this particular massacre also highlights a particularly dangerous strain of white environmentalism: ecofascism.
 
 ## Fascism, but make it green. 🌱
 
-Ecofascism combines ideologies of nationalism, white environmentalism, and white supremacy. White environmentalism intentionally erases and silences BIPOC activists’ voices and refuses to acknowledge that it is the systems of white supremacy that led to our current-day climate crisis. [Ecofascists take these ideologies to the extreme](https://www.opendemocracy.net/en/countering-radical-right/eco-fascism-justifications-terrorist-violence-christchurch-mosque-shooting-and-el-paso-shooting/), often calling for the explicit genocide of people they deem “other.” This is also why taking a solutionist approach to solving climate change is so dangerous—fixating on “solutions” without understanding the historical and social contexts and consequences mean that ideas like genocide start to become valid.
+Ecofascism combines ideologies of nationalism, white environmentalism, and white supremacy. White environmentalism intentionally erases and silences BIPOC activists’ voices and refuses to acknowledge that it is the systems of white supremacy that led to our current-day climate crisis. Ecofascists take these ideologies to the extreme[^3], often calling for the explicit genocide of people they deem “other.” This is also why taking a solutionist approach to solving climate change is so dangerous—fixating on “solutions” without understanding the historical and social contexts and consequences mean that ideas like genocide start to become valid.
 
-While ecofascist ideas tend to be more fringe, environmentalists (particularly white, privileged environmentalists) [need to consider how they will respond as the climate crisis worsens](https://theintercept.com/2019/08/05/el-paso-shooting-eco-fascism-migration/). Will they start listening to the concerns and demands of BIPOC environmentalists who have been calling out these red flags for decades, or will they continue to legitimize eco-fascist viewpoints by claiming they need to “value both sides?”
+While ecofascist ideas tend to be more fringe, environmentalists (particularly white, privileged environmentalists) need to consider how they will respond as the climate crisis worsens.[^4] Will they start listening to the concerns and demands of BIPOC environmentalists who have been calling out these red flags for decades, or will they continue to legitimize eco-fascist viewpoints by claiming they need to “value both sides?”
+
+## References
+
+[^1]: [One Year After Mass Shooting, El Paso Residents Grapple With White Supremacy: ‘It Was There the Whole Time’]((https://time.com/5874088/el-paso-shooting-racism/)) — Jasmine Aguilera, TIME
+
+[^2]: [‘I’m the Shooter’: El Paso Suspect Confessed to Targeting Mexicans, Police Say](https://www.nytimes.com/2019/08/09/us/el-paso-suspect-confession.html) — Nicholas Bogel-Burroughs, NYT
+
+[^3]: ["Eco-fascism: justifications of terrorist violence in the Christchurch mosque shooting and the El Paso shooting"](opendemocracy.net/en/countering-radical-right/eco-fascism-justifications-terrorist-violence-christchurch-mosque-shooting-and-el-paso-shooting/) — Bernhard Forchtner, openDemocracy
+
+[^4]: [The El Paso Shooter Embraced Eco-Fascism. We Can’t Let the Far Right Co-Opt the Environmental Struggle.](https://theintercept.com/2019/08/05/el-paso-shooting-eco-fascism-migration/) — Natasha Lennard, The Intercept
