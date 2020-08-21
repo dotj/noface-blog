@@ -100,6 +100,7 @@ Until someone invents a way to harness the boundless energy of a white woman’s
 [^15]: [White environmentalism and the coporate university](https://www.the-trouble.com/content/2020/4/27/white-environmentalism-and-the-corporate-university) — Roshan Krishnan, The Trouble
 
 [^16]: [Why I quit being a climate activist](https://www.vice.com/en_us/article/g5x5ny/why-i-quit-being-a-climate-activist) — Karin Louise Hermes, VICE
+<<<<<<< HEAD
 
 [^17]: [Climate change isn’t the first existential threat](https://zora.medium.com/sorry-yall-but-climate-change-ain-t-the-first-existential-threat-b3c999267aa0) — Mary Annaïse Heglar, ZORA
 
@@ -107,3 +108,7 @@ Until someone invents a way to harness the boundless energy of a white woman’s
 <!--
 https://www.washingtonpost.com/nation/2020/05/27/this-invokes-history-terror-central-park-incident-between-white-woman-black-man-is-part-fraught-legacy/
 -->
+=======
+
+[^17]: [Climate change isn’t the first existential threat](https://zora.medium.com/sorry-yall-but-climate-change-ain-t-the-first-existential-threat-b3c999267aa0) — Mary Annaïse Heglar, ZORA
+>>>>>>> f37e7ba79648a86ed0c8172a96b393f211c2a21c
