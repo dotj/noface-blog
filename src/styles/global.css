@@ -207,6 +207,21 @@ a.annotation:hover span {
     transition: var(--long-transtition);
 }
 
+/* Table */
+table, th, td {
+    background: var(--main-bg);
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+    vertical-align: top;
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+th {
+    font-family: var(--monospace);
+    border-bottom: 1px solid var(--accent1);
+}
+
 /* Class styles */
 
 .detail {
