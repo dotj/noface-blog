@@ -1,5 +1,5 @@
 ---
-title: The revolutionary power of storytelling
+title: Origin stories
 date: 2020-08-20
 featuredImage: "./sebastien-gabriel-unsplash.jpg" # https://unsplash.com/photos/TG-Ea4dvDm0
 tags: test
@@ -8,7 +8,7 @@ description:
   "A conversation with an Indigenous community leader highlighted the wisdom and revolutionary power of storytelling. Bonus: an academic methodology (causal layered analysis) to stunt on the racists, C-level suits, and/or techno-chauvinists."
 ---
 
-## A post climate-crisis world?
+## What does a better future look like to us?
 
 For a graduate project on climate change, I interviewed Matt Remle,[^1] a Lakota leader who is guiding the Green New Deal resolution in Seattle (a.k.a. traditional Duwamish and Coast Salish lands).[^2] During the interview, I asked, “Suppose we live in a world in which we’ve ‘beat’ climate change, what does that look like to you?”
 
@@ -20,23 +20,26 @@ Throughout the interview, he spoke about the values that get passed down through
 
 ## Causal layered analysis (CLA)
 
-Causal layered analysis (CLA) is a qualitative methodology first developed by Inayatullah in 2004 for futures research and more recently adapted to contextualize and deconstruct complex social issues such as wicked problems.[^3] [^4] [^5] CLA provides a way for researchers to understand these issues at various levels of complexity, thus allowing researchers to hold space for multiple perspectives and unpack the root of the problem.
+Causal layered analysis (CLA) is a qualitative methodology first developed by Inayatullah in 2004 for futures research and more recently adapted to contextualize and deconstruct complex social issues such as <a class="annotation">wicked problems.<span>
+  Wicked problems are characteristically overwhelming, and proposed solutions may solve one issue while causing another. Climate change is a classic example of a "wicked problem."</span></a>[^3] [^4] [^5]
+CLA provides a way for researchers to understand these issues at various levels of complexity, thus allowing researchers to hold space for multiple perspectives and unpack the root of the problem.
 
 The four levels of CLA are summarized as follows:
 
-1. Litany consists of the literal, visible, uncontested truths. Issues are quantifiable, but underlying assumptions are rarely questioned, and lack of coherence can result in perceived helplessness or apathy.
+1. **Litany** — consists of the literal, visible, uncontested truths. Issues are quantifiable, but underlying assumptions are rarely questioned, and lack of coherence can result in perceived helplessness or apathy.</br></br>
 
-2. Systemic, or social causal - consists of social, technological, economic, environmental, political, and historical factors. Issues are based on interpretations of quantifiable data.
+2. **Systemic, or social causal** — consists of social, technological, economic, environmental, political, and historical factors. Issues are based on interpretations of quantifiable data.</br></br>
 
-3. Worldview & discourse - consists of social, linguistic, and cultural processes that support and legitimizes it. Sublevels include stakeholder, ideological, civilizational, and epistemic levels.
+3. **Worldview & discourse** — consists of social, linguistic, and cultural processes that support and legitimizes it. Sublevels include stakeholder, ideological, civilizational, and epistemic levels.</br></br>
 
-4. Myth & metaphor - consists of the deep, emotive, often unconscious, and collective cultural archetypes. 
+4. **Myth & metaphor** — consists of the deep, emotive, often unconscious, and collective cultural archetypes. 
 
-![An aerial image of icebergs by Annie Spratt](./annie-spratt-unsplash.jpg)
+<!-- ![An aerial image of icebergs by Annie Spratt](./annie-spratt-unsplash.jpg) -->
 
 ## A CLA of the UN’s deforestation policies
 
-One of the most well-known symptoms is deforestation, and environmentalists claim that the solution is as simple as planting more trees. A causal layered analysis of the UN’s deforestation policies unpacks why this is not sufficient.
+One of the most well-known symptoms is <a class="annotation">deforestation,<span>
+  Since trees capture greenhouses gases (GHGs) and produce oxygen, the logic implies that planting more trees will result in less carbon in the atmosphere, thus reducing the rate at which the planet is warming up.</span></a> and environmentalists claim that the solution is as simple as planting more trees. A causal layered analysis of the UN’s deforestation policies unpacks why this is not sufficient.
 
 The Reducing Emissions from Deforestation and Forest Degradation (REDD) initiative from the United Nations Framework Convention on Climate Change (UNFCCC) supports “developing countries in reducing emissions from deforestation and forest degradation.”[^6] In 2010, Ariell conducted a causal layered analysis to deconstruct the frameworks that inform the REDD initiative, which is summarized in the table below.[^7]
 
@@ -51,7 +54,12 @@ In the context of the climate crisis, Americans need to take direct, immediate a
 
 ## Storytelling is revolutionary
 
-The myth and metaphor layer is where stories hold their revolutionary power. In the United States, the predominant narrative is that of colonialism, specifically the white capitalist. In these stories, (wealthy white) people hold dominion over nature. People are different from land. People “own” land as property. People tame the wilderness and the wildebeests. People “win” land through violence. People exploit the land for profit. The same logic applies to Black and brown people and immigrants, whose labor can be exploited through slavery, prison labor, immigrant labor, and wage theft.
+The myth and metaphor layer is where stories hold their revolutionary power. In the United States, the predominant narrative is that of <a class="annotation">colonialism,<span>
+  Colonialism is the policy or practice of acquiring full or partial political control over another country, occupying it with settlers, and exploiting it through capitalist economies.</span></a>
+specifically of <a class="annotation">white capitalism.<span>
+  In short, capitalism is an economic and political system in which trade and industry are controlled by private owners for profit. White capitalism is specified because capitalism in the United States was always intended to enrich white people off the labor and brutality of Black, brown, and other immigrant communities. Successful Black capitalists have faced severe violence even when they become successful (see also: Tulsa Massacre).</span></a>
+In these stories, (wealthy white) people hold dominion over nature. People are different from land. People “own” land as property. People tame the wilderness and the wildebeests. People “win” land through violence. People exploit the land for profit. The same logic applies to Black and brown people and immigrants, whose labor can be exploited through slavery, prison labor, immigrant labor, and wage theft.
+
 
 In the climate world, these narratives are used to justify injustice. Those who parrot these narratives suggest that the historical extractive capitalism of the fossil fuel industry was necessary to sustain modern life, or that the future extractive capitalism of lithium is necessary to build batteries for electric cars because they are the “solution” to climate change. This narrative applies to many other facets of climate change: the exploitation of garment workers in fast fashion, the exploitation of farm and factory workers for clean/vegan diets, and so on. 
 
@@ -59,7 +67,7 @@ In the climate world, these narratives are used to justify injustice. Those who 
 
 <center><small><em>Elon's response to speculation that he was involved with Bolivian coup for lithium.</em></small></center>
 
-In contrast, the Lakota peoples’ origin stories teach the moral imperative to care for the land as kin. Exploiting other people, living beings, or the land would be like exploiting a family member. The connection between a person and the land isn’t one of owner/property, it is a symbiotic familial relationship.
+In contrast, the Lakota peoples’ origin stories teach the moral imperative to care for the land as kin. With this value system, exploiting other people, living beings, or the land would be as morally repugnant as exploiting a family member. The connection between a person and the land isn’t one of owner/property, it is a symbiotic familial relationship.
 
 In his paper, Inayatullah writes:
 
