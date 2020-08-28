@@ -7,6 +7,14 @@ module.exports = {
   pathPrefix: "/",
   plugins: [
     {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        excludePaths: ["/", "/about"],
+        height: 3,
+        color: `#5e4d9c`
+      }
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [

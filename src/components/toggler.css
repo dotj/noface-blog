@@ -1,0 +1,38 @@
+body {
+  --sun-display: none;
+  --moon-display: inline;
+}
+
+body.dark {
+  --sun-display: inline;
+  --moon-display: none;
+}
+
+.toggler {
+  text-decoration: none;
+	color: var(--darkgrey);
+}
+
+.toggler-checkbox {
+  display: none;
+}
+
+.toggler-sun {
+  display: var(--sun-display);
+  transition: var(--long-transtition);
+}
+
+.toggler-sun:hover {
+  color: goldenrod;
+  transition: var(--long-transtition);
+}
+
+.toggler-moon {
+  display: var(--moon-display);
+  transition: var(--long-transtition);
+}
+
+.toggler-moon:hover {
+  color: goldenrod;
+  transition: var(--long-transtition);
+}

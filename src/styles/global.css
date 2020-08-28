@@ -8,22 +8,22 @@ html {
     --long-transtition: all 0.5s ease;
 }
 
-/* body {
+body {
     --main-bg: #FFF;
-    --post-bg: #F8F8F8;
+    --post-bg: #F7F7F7;
     --transparent-bg: rgba(255, 255, 255, 80%);
-    --transparent-accent: rgba(197, 155, 227, 0.8);
+    --transparent-accent: rgba(197, 155, 227, 90%);
     --gradient: linear-gradient(90deg, #5e4d9c 0%, #e08c7d 100%);
-    --main-text: #333;
+    --main-text: #444;
     --accent1: #c59be3;
-    --accent2: #e08c7d;
+    --accent2: #5e4d9c; 
     --neutral: #ccc;
 
-    transition: var(--short-transtition);
+    transition: var(--long-transtition);
     background: var(--main-bg);
-} */
+}
 
-body {
+body.dark {
     -webkit-font-smoothing: antialiased;
 
     --main-bg: #000;
@@ -36,7 +36,7 @@ body {
     --accent2: #c59be3;
     --neutral: #333;
 
-    transition: var(--short-transtition);
+    transition: var(--long-transtition);
     background: var(--main-bg);
 }
 
@@ -60,6 +60,10 @@ h2 { font-size: 1.4rem; }
 
 h3 { font-size: 1.2rem; }
 
+nav h1 {
+    font-size: 1.4rem;
+}
+
 hr {
     background: var(--neutral);
     height: 1px;
@@ -70,12 +74,12 @@ a {
     text-decoration: none;
 	color: var(--darkgrey);
     border-bottom: 0.1rem solid var(--accent1);
-    transition: background-color 0.3s;
+    transition: var(--short-transtition);
 }
 
 a:hover {
     background: var(--accent1);
-    transition: background-color 0.3s;
+    transition: var(--short-transtition);
 }
 
 em, strong {
@@ -189,7 +193,7 @@ a.annotation span {
     max-width: 30rem;
     color: var(--main-text);
     font-family: var(--monospace);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.0rem;
     background-color: var(--transparent-accent);
     -webkit-transition: var(--long-transtition);
@@ -234,18 +238,20 @@ th {
 }
 
 .wrapper {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+    padding: 0rem;
 }
 
 .main {
     padding: 0rem;
+    text-align: left;
 }
 
 @media only screen and (min-width: 640px) {
     .main {
         padding: 1rem;
-        max-width: 50rem;
+        max-width: 48rem;
     }
 }
 

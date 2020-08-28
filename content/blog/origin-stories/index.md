@@ -5,7 +5,7 @@ featuredImage: "./sebastien-gabriel-unsplash.jpg" # https://unsplash.com/photos/
 tags: test
 published: true
 description:
-  "A conversation with an Indigenous community leader highlighted the wisdom and revolutionary power of storytelling. Bonus: an academic methodology (causal layered analysis) to stunt on the racists, C-level suits, and/or techno-chauvinists."
+  "A conversation with an Indigenous community leader highlighted the wisdom and revolutionary power of storytelling. Bonus: an academic methodology (causal layered analysis) to front on the racists, C-level suits, and/or techno-chauvinists."
 ---
 
 ## What does a better future look like to us?
@@ -57,7 +57,7 @@ In the context of the climate crisis, Americans need to take direct, immediate a
 The myth and metaphor layer is where stories hold their revolutionary power. In the United States, the predominant narrative is that of <a class="annotation">colonialism,<span>
   Colonialism is the policy or practice of acquiring full or partial political control over another country, occupying it with settlers, and exploiting it through capitalist economies.</span></a>
 specifically of <a class="annotation">white capitalism.<span>
-  In short, capitalism is an economic and political system in which trade and industry are controlled by private owners for profit. White capitalism is specified because capitalism in the United States was always intended to enrich white people off the labor and brutality of Black, brown, and other immigrant communities. Successful Black capitalists have faced severe violence even when they become successful (see also: Tulsa Massacre).</span></a>
+  In short, capitalism is an economic and political system in which trade and industry are controlled by private owners for profit. White capitalism is specified because capitalism in the United States was always intended to enrich white people off the labor and brutality of Black, brown, and other immigrant communities. Even Black capitalists have faced severe violence even when they become successful (see: the Tulsa Massacre).</span></a>
 In these stories, (wealthy white) people hold dominion over nature. People are different from land. People “own” land as property. People tame the wilderness and the wildebeests. People “win” land through violence. People exploit the land for profit. The same logic applies to Black and brown people and immigrants, whose labor can be exploited through slavery, prison labor, immigrant labor, and wage theft.
 
 

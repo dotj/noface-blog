@@ -1,4 +1,3 @@
-import { Link } from "gatsby";
 import BackgroundImage from "gatsby-background-image";
 import React from "react";
 import "./splash-title.css";
@@ -9,7 +8,7 @@ const SplashTitle = ({ title, date, background, children }) => {
       <center>
         <div class="splash-console">
           <h1 class="splash-title-header">
-            <Link to={`/`}>{title}</Link>
+            {title}
           </h1>
           <p class="splash-title-subheader">{children}</p>
         </div>

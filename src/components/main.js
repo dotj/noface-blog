@@ -1,20 +1,15 @@
-import { Link } from "gatsby";
 import React from "react";
+import Menu from "./menu";
 
 const Main = ({ siteTitle, title, children }) => {
-  let header = (
-    <h1>
-      <Link to={`/`}>{siteTitle}</Link>
-    </h1>
-  );
   return (
     <div class="wrapper">
-      {/* <Toggler/> */}
+      <center>
       <div class="main">
-        {/* <Menu siteTitle={title} /> */}
-        <header>{header}</header>
+        <header><Menu siteTitle={siteTitle}/></header>
         <main>{children}</main>
       </div>
+      </center>
     </div>
   );
 };
