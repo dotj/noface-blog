@@ -10,7 +10,7 @@ description:
 
 > “I have almost reached the regrettable conclusion that the Negro’s great stumbling block in his stride toward freedom is not the White Citizen’s Counciler or the Ku Klux Klanner, but the white moderate, who is more devoted to “order” than to justice; who prefers a negative peace which is the absence of tension to a positive peace which is the presence of justice…” — [Martin Luther King, Jr. (1963)](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html)
 
-## Beware the climate <a class="annotation">karens<span> While the "karen" meme can be useful in encapsulating the entitled, privileged, antagonistic, and self-victimizing behavior of racist white women, it is also important to name the specific behaviors and recognize that they are active upholders of white supremacy.</span></a>
+## Beware the climate <a class="annotation">karens<span> While the "karen" meme can be useful in encapsulating the entitled, privileged, antagonistic, racist, and self-victimizing behavior of white women, it is also important to name the specific behaviors and recognize that they are active upholders of white supremacy.</span></a>
 
 
 The mainstream climate movement tends to frame climate change as a global issue, though it is frontline communities who bear the brunt of <a class="annotation">climate effects.<span>

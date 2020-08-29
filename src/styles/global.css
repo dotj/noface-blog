@@ -231,6 +231,7 @@ th {
 .detail {
     font-size: 1.0rem;
     font-family: var(--monospace);
+    line-height: 1.0rem;
     text-transform: uppercase;
     font-weight: normal;
     text-align: left;

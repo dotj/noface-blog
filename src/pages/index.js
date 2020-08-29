@@ -25,8 +25,8 @@ const IndexPage = ({ data, location }) => {
                   <Link to={node.fields.slug}>{title}</Link>
                 </h2>
               </header>
-              <p class="detail">{node.frontmatter.date}</p>
-              <section>
+              <section style={{ marginBottom: `2rem` }}>
+                <p class="detail">{node.frontmatter.date}</p>
                 <p
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt

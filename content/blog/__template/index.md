@@ -4,14 +4,45 @@ date: "2015-05-28"
 tags: test
 # published: true
 featuredImage: "../../assets/chan-hoi-unsplash.jpg"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description:
+  This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ---
 
-# Lorem ipsum dolor sit amet with footnotes
+# Header 1: Lorem ipsum dolor sit amet with footnotes
 
 Consectetur adipiscing elit.[^f1] Donec ultricies velit et consectetur placerat.[^f2] In et nulla non sem elementum tincidunt. Donec rhoncus, dui tincidunt accumsan mollis, augue urna fringilla justo, eu hendrerit quam elit id ante. Aenean dignissim elementum tellus, quis laoreet ex porttitor a. Curabitur faucibus ornare fermentum. Nullam consequat nisi augue, non convallis mauris finibus at. Nulla eu massa ac libero blandit fermentum. Integer rutrum, velit ut vulputate vestibulum, ex tellus molestie ex, sed pretium eros nulla at augue. Fusce sagittis libero a justo feugiat aliquet. Vivamus rutrum sit amet diam non vulputate. Curabitur luctus eu ligula in volutpat. Aliquam a urna nec velit eleifend hendrerit. In ut fringilla ipsum. Nunc porta, diam a faucibus finibus, nisi purus mollis elit, non rhoncus mi elit eu nulla. Donec nec mauris quis ligula venenatis ultricies.
 
-## Annotations with custom clasees
+
+## Header 2: Morbi lobortis ipsum quis urna commodo tempor
+
+- Fusce id mi elit.
+- Donec sit amet lectus lorem.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Pellentesque et arcu magna.** _Aliquam laoreet purus lectus, at vehicula elit feugiat ut._ Sed facilisis odio id erat volutpat, at porta nisi [vestibulum](http://google.com). Curabitur condimentum orci urna, ac finibus nisi elementum ac. Curabitur nec feugiat urna, nec cursus turpis. Nam tincidunt libero ut dui suscipit tincidunt. Ut auctor egestas nisi eu blandit. Donec vitae urna augue. Integer bibendum neque sed diam varius semper. Duis dignissim quis diam nec dignissim.
+
+### Header 3: Aliquam sed risus metus.
+
+Donec dignissim massa eu rhoncus ultricies. Mauris viverra semper fringilla.
+
+> Donec ornare ante neque, non porta mauris hendrerit vitae. Pellentesque interdum congue laoreet. Donec in est suscipit, porttitor ligula sed, luctus sem. Cras volutpat suscipit efficitur. Curabitur luctus nisl lorem, eu consectetur erat tempus sed.
+
+#### Header 4: Nam sed est non elit pulvinar tempor vulputate at arcu.
+
+Curabitur malesuada, ante at gravida lobortis, purus quam consequat mi, non finibus nunc odio eget massa. Morbi ut libero posuere, auctor tellus vel, sagittis mauris. Donec porta leo quis vulputate volutpat. Etiam egestas leo in interdum scelerisque. In molestie eleifend mauris, quis eleifend mi feugiat faucibus. Quisque tincidunt, elit in convallis rhoncus, odio lorem lacinia nulla, non mollis ex sapien vel ipsum.
+
+```
+Cras enim nunc,
+tempus ac odio quis,
+dictum consectetur tellus.
+Nullam ipsum metus,
+vehicula eget nisl vel,
+iaculis pharetra nunc.
+```
+
+Sed et ante vel dui bibendum ultrices. Maecenas metus leo, rutrum vel urna egestas, condimentum semper felis. Morbi eleifend erat nec tellus semper malesuada. Maecenas vel condimentum mi. Sed eget gravida ex. Curabitur convallis tincidunt eros non molestie. Quisque quis libero a leo eleifend ultrices. Integer scelerisque neque condimentum purus feugiat placerat. Integer a facilisis diam, sit amet viverra purus. Ut porta sit amet erat eget dapibus. Donec sit amet aliquet ligula, eu iaculis ante.
+
+
+## H2: Annotations with custom clasees
 
 An <a class="annotation">example<span>A sidenote</span></a>
 
@@ -33,7 +64,7 @@ An <a class="annotation">example<span>A sidenote</span></a>
 </p> In ut fringilla ipsum. Nunc porta, diam a faucibus finibus, nisi purus mollis elit, non rhoncus mi elit eu nulla. Donec nec mauris quis ligula venenatis ultricies.
 
 
-## Text replacement test
+## H2: Text replacement test
 
 <p>Here's a <span class="the-trick">cool</span> trick for replacing text with an icon font icon inline. Copying and pasting still works normally. It might be useful if you want to use a wordmark as an icon among other things. (Highlight the first sentece and copy/paste.)</p>
 
@@ -76,7 +107,7 @@ Resulting HTML:
 </details>
 ``` -->
 
-## Moving on...
+## H2: Moving on...
 
 ```md
 title: Post One
@@ -86,33 +117,9 @@ tags: test
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ```
 
-## Morbi lobortis ipsum quis urna commodo tempor
 
-- Fusce id mi elit.
-- Donec sit amet lectus lorem.
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Pellentesque et arcu magna.** _Aliquam laoreet purus lectus, at vehicula elit feugiat ut._ Sed facilisis odio id erat volutpat, at porta nisi [vestibulum](http://google.com). Curabitur condimentum orci urna, ac finibus nisi elementum ac. Curabitur nec feugiat urna, nec cursus turpis. Nam tincidunt libero ut dui suscipit tincidunt. Ut auctor egestas nisi eu blandit. Donec vitae urna augue. Integer bibendum neque sed diam varius semper. Duis dignissim quis diam nec dignissim.
-
-### Aliquam sed risus metus.
-
-Donec dignissim massa eu rhoncus ultricies. Mauris viverra semper fringilla.
-
-> Donec ornare ante neque, non porta mauris hendrerit vitae. Pellentesque interdum congue laoreet. Donec in est suscipit, porttitor ligula sed, luctus sem. Cras volutpat suscipit efficitur. Curabitur luctus nisl lorem, eu consectetur erat tempus sed.
-
-#### Nam sed est non elit pulvinar tempor vulputate at arcu.
-
-Curabitur malesuada, ante at gravida lobortis, purus quam consequat mi, non finibus nunc odio eget massa. Morbi ut libero posuere, auctor tellus vel, sagittis mauris. Donec porta leo quis vulputate volutpat. Etiam egestas leo in interdum scelerisque. In molestie eleifend mauris, quis eleifend mi feugiat faucibus. Quisque tincidunt, elit in convallis rhoncus, odio lorem lacinia nulla, non mollis ex sapien vel ipsum.
-
-```
-Cras enim nunc,
-tempus ac odio quis,
-dictum consectetur tellus.
-Nullam ipsum metus,
-vehicula eget nisl vel,
-iaculis pharetra nunc.
-```
-
-Sed et ante vel dui bibendum ultrices. Maecenas metus leo, rutrum vel urna egestas, condimentum semper felis. Morbi eleifend erat nec tellus semper malesuada. Maecenas vel condimentum mi. Sed eget gravida ex. Curabitur convallis tincidunt eros non molestie. Quisque quis libero a leo eleifend ultrices. Integer scelerisque neque condimentum purus feugiat placerat. Integer a facilisis diam, sit amet viverra purus. Ut porta sit amet erat eget dapibus. Donec sit amet aliquet ligula, eu iaculis ante.
+## H2: References
 
 [^f1]: Footnote one
 [^f2]: Footnote two - Includes an indented paragraph and some code: Maecenas vel condimentum mi. Sed eget gravida ex. Curabitur convallis tincidunt eros non molestie. Quisque quis libero a leo eleifend ultrices. Integer scelerisque neque condimentum purus feugiat placerat. Integer a facilisis diam, sit amet viverra purus. Ut porta sit amet erat eget dapibus. Donec sit amet aliquet ligula, eu iaculis ante.
