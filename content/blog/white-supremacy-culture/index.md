@@ -1,19 +1,17 @@
 ---
-title: Institutional white supremacy culture
+title: Institutionalized white supremacy culture
 date: "2020-08-28"
 tags: test
 published: true
 featuredImage: "./moren-hsu-VLaKsTkmVhk-unsplash.jpg"
 # https://unsplash.com/photos/VLaKsTkmVhk
 description:
-  A list of red flags and possible painkillers for the weary BIPOC who are just trying to pay the damn bills while fending off the white guilt.
+  How the values of white supremacy manifest in our organizations, and how to fend off the white guilt.
 ---
 
-## For the weary
+## When you are drowning in white guilt
 
-Perhaps I'm outing myself out too early, but despite being critical of both the tech industry and our capitalist society, I recently graduated from a master's program in human-computer interaction (HCI) and am still holding down a full-time corporate tech job. Seeing the inherent white supremacy that is so deeply embedded in academia and corporate tech is bitterly demoralizing. Yet, I stay because I have bills to pay. I have felt exhausted for years, and the exhaustion has become debilitating within the past few months. There is no way to sugarcoat that.
-
-In the meantime, being in white spaces means I am constantly inundated with white guilt. Recently, I was part of a DEI (diversity, equity, & inclusion) roundtable, and the moderators wanted to split us into breakout rooms to discuss "actionable" things we could do to be more "inclusive." Frankly, I couldn't think of any way to "reform" our institution to be more inclusive. I was frustrated that our diversity efforts were mirroring the white-centric self-help brand of anti-racism parroted in <em>White Fragility</em> (which has been critiqued by folks far more eloquent than me[^1]). I had no way of understanding what a genuinely inclusive environment would look like to me because that is not a reality I have ever experienced.
+Moving through predominantly white spaces means I am constantly inundated with white guilt. Recently, I was part of a DEI (diversity, equity, & inclusion) roundtable, and the moderators wanted to split us into breakout rooms to discuss "actionable" things we could do to be more "inclusive." Frankly, I couldn't think of any way to "reform" our institution to be more inclusive. I was frustrated that our diversity efforts were mirroring the white-centric self-help brand of anti-racism parroted in <em>White Fragility</em> (which has been critiqued by folks far more eloquent than me[^1]). I had no way of understanding what a genuinely inclusive environment would look like to me because that is not a reality I have ever experienced.
 
 However, I later came across a primer which names some of the defining characteristics of white supremacy culture in organizational contexts and some actionable ways to name and address why those characteristics impede progress. If you are BIPOC, perhaps this primer can help you navigate your institution.
 
@@ -178,6 +176,12 @@ I had to document, process, and articulate my own perception to be believed. WW 
 **Example 1:** When the "team lead" of a school project called a last-minute meeting, I asked what the agenda was. The team lead couldn't answer, got defensive and angry, and scolded me for "not respecting her authority."
 
 **Example 2:** During a climate project, a white team member spent months virtue-signaling and self-righteously declaring themselves as an ally who speaks up for marginalized people, while simultaneously criticizing the climate justice movement for being too divisive (and therefore "wrong" in their approach to climate).
+
+## For the weary
+
+Despite being critical of both the tech industry and our capitalist society, I recently graduated from a master's program in human-computer interaction and am still holding down a full-time corporate tech job. Seeing the inherent white supremacy that is so deeply embedded in academia and corporate tech is bitterly demoralizing. Yet, I stay because I have bills to pay. I have felt exhausted for years, and the exhaustion has become debilitating within the past few months. There is no way to sugarcoat that.
+
+As I mentioned in an example above, one of the most helpful and grounding pieces of advice I recieved was that simply being BIPOC does not qualify me to speak on issues of race. Speaking about race, particularly with white people, is incredibly draining and takes an enormous amount of emotional labor that I was not compensated for. You are in no way obligated to "meet people halfway" when they are learning to stop being racist, you do not need to be anyone's punching bag, you are allowed to be weary. Hopefully these symptoms will help you survive the toxic environment until you can find something better. Take care.
 
 
 ## References

@@ -44,7 +44,7 @@ Sed et ante vel dui bibendum ultrices. Maecenas metus leo, rutrum vel urna egest
 
 ## H2: Annotations with custom clasees
 
-An <a class="annotation">example<span>A sidenote</span></a>
+An <a class="annotation">example<span>A sidenote</span></a> using a custom annotation class with a link and a span tag.
 
 <p>Some text here.<a class="annotation">🖊<span>
   In ut fringilla ipsum. Nunc porta, diam a faucibus finibus, nisi purus mollis elit, non rhoncus mi elit eu nulla. Donec nec mauris quis ligula venenatis ultricies.
@@ -107,6 +107,16 @@ Resulting HTML:
 </details>
 ``` -->
 
+
+## H2: Testing with an aside tag
+
+Consectetur adipiscing elit.
+
+<aside>This is an aside.</aside>
+
+Note [from SO](https://stackoverflow.com/questions/43409513/how-to-hide-and-show-elements-on-hover-using-css-span-onhover-selectors)
+> The thing is that you can't use aside inside of a p. The aside would then be moved outside of the p which changes your DOM what makes it impossible to select the aside on hover of the .inline-aside as you can't go back in the DOM.
+
 ## H2: Moving on...
 
 ```md
@@ -122,4 +132,4 @@ description: This is a custom description for SEO and Open Graph purposes, rathe
 ## H2: References
 
 [^f1]: Footnote one
-[^f2]: Footnote two - Includes an indented paragraph and some code: Maecenas vel condimentum mi. Sed eget gravida ex. Curabitur convallis tincidunt eros non molestie. Quisque quis libero a leo eleifend ultrices. Integer scelerisque neque condimentum purus feugiat placerat. Integer a facilisis diam, sit amet viverra purus. Ut porta sit amet erat eget dapibus. Donec sit amet aliquet ligula, eu iaculis ante.
+[^f2]: Footnote two - Includes an indented paragraph and some code: `Maecenas vel condimentum mi.` Sed eget gravida ex. Curabitur convallis tincidunt eros non molestie. Quisque quis libero a leo eleifend ultrices. Integer scelerisque neque condimentum purus feugiat placerat. Integer a facilisis diam, sit amet viverra purus. Ut porta sit amet erat eget dapibus. Donec sit amet aliquet ligula, eu iaculis ante.

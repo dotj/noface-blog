@@ -5,7 +5,7 @@ tags: test
 published: true
 featuredImage: "./ev.jpg"
 description:
-  BIPOC environmentalists should be wary of the toxic white environmentalists who will shamelessly virtue signal while silencing and gaslighting those who dare demand accountability.
+  BIPOC environmentalists should be wary of the white environmentalists who will shamelessly virtue signal while silencing and gaslighting those who dare demand accountability.
 ---
 
 > “I have almost reached the regrettable conclusion that the Negro’s great stumbling block in his stride toward freedom is not the White Citizen’s Counciler or the Ku Klux Klanner, but the white moderate, who is more devoted to “order” than to justice; who prefers a negative peace which is the absence of tension to a positive peace which is the presence of justice…” — [Martin Luther King, Jr. (1963)](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html)
@@ -29,15 +29,15 @@ These white environmentalists constantly exclude, silence, and speak over voices
   I use the BIPOC acronym as an umbrella term for <em>"Black, Indigenous, and people of color"</em> to reference our shared experiences with whiteness and white supremacy which can include, but is not limited to both overt and covert racism, colorism, xenophobia, colonization, and genocide.
 </span></a> environmentalists.
 
-The toxic white environmentalist’s danger is that they’re more deceitful and hypocritical.[^5] Climate-deniers are easy to spot, but toxic white environmentalists act as <a class="annotation">racial narcissists,<span>
+The white environmentalist’s danger is that they’re more deceitful and hypocritical.[^5] Climate-deniers are easy to spot, but white environmentalists act as <a class="annotation">racial narcissists,<span>
   Narcissism describes a behavior pattern (and mental disorder in the case of NPD) in which people have a grandiose sense of self-importance and entitlement. The parallels between white supremacy and narcissism has been explored by many Black academics and other psychologists and sociologists such as Arianne E. Miller, Angelique Davis, and Ramani Durvasula.
 </span></a>[^6] virtue-signaling to gain tokenized BIPOC environmentalists’ trust.
 
 ## A personal anecdote
 
-For a recent project, I attended an anti-racism workshop with a white environmentalist I was working with. That white environmentalist walked out of the workshop and spent the next 3 months lambasting environmental justice movement for being too “divisive,” not focusing on enough “solutions,” and not centering the “social safety” of “moderates” like herself. She also explicitly “scoped” her solution to exclude racial issues, exemplifying white narcissism by centering her feelings above the actual lives of those in the frontline communities. For months, she used white tears, self-victimization, and blatant lies and gaslighting to evade any form of accountability and self-reflection. In addition, being in a primarily white institution meant that no one would hold her accountable either, and my request for boundaries was continually dismissed.
+For a recent project, I attended an anti-racism workshop with a white environmentalist I was working with. That white environmentalist walked out of the workshop and spent the next 3 months lambasting environmental justice movement for being too “divisive,” not focusing on enough “solutions,” and not centering the “social safety” of “moderates” like herself. She also explicitly “scoped” her solution to exclude racial issues, exemplifying white narcissism by centering her feelings above the actual lives of those in the frontline communities. For months, she used white tears, self-victimization, and blatant lies and gaslighting to evade any form of accountability and self-reflection. In addition, being in a predominantly white institution meant that all the authority figures automatically believed her white tears with zero evidence, despite me having documented proof on 5 months of her abusive behavior. Both the white environmentalist and her enablers continually dismissed my request for boundaries.
 
-In environmentalism, these behaviors aren’t just annoying, they are intentionally weaponized to silence and gaslight other people, often BIPOC, who try to bring attention to the most immediate, pressing issues that threaten the lives of frontline communities, thus upholding the systems of white supremacy.
+In environmentalism, these behaviors aren’t just annoying, they are intentionally weaponized to silence and gaslight other people, often BIPOC, who try to bring attention and wisdom to the most immediate, pressing issues which threaten the lives of frontline communities. In doing so, white environmentalists are willingly upholding the systems of white supremacy.
 
 ## Towards an intersectional environmentalism
 
