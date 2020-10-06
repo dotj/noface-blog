@@ -2,7 +2,7 @@
 
 ## Content
 
-Main content is located at [/content/blog](https://github.com/dotj/noface-blog/tree/master/content/blog).
+Main content is located at [/content/blog](https://github.com/dotj/noface-blog/tree/main/content/blog).
 
 ## Usage
 
