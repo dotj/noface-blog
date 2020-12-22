@@ -19,7 +19,7 @@ const IndexPage = ({ data, location }) => {
 
         <p>You can also find some of my old rants on <a href="https://tinyletter.com/noface/archive">Newsletters from Noface.</a></p>
 
-        <p>I've also started compiling some resources on direct action, mental health, and education in <a href="https://docs.google.com/spreadsheets/d/18Zu8QXYrdrXfuZCZkk3NF_rO7Fh6xDbETgpkKjWhn2o/edit?usp=sharing">this google spreadsheet</a>.</p>
+        {/* <p>I've also started compiling some resources on direct action, mental health, and education in <a href="https://docs.google.com/spreadsheets/d/18Zu8QXYrdrXfuZCZkk3NF_rO7Fh6xDbETgpkKjWhn2o/edit?usp=sharing">this google spreadsheet</a>.</p> */}
       </Content>
     </Main>
   );
