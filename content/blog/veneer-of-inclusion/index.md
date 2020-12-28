@@ -2,7 +2,7 @@
 title: The veneer of inclusion
 date: "2020-12-21"
 tags: test
-# published: true
+published: true
 featuredImage: "./mitchell-luo-jz4ca36oJ_M-unsplash.jpg"
 description:
   Yet another story about how diversity, equity, and inclusion (DEI) efforts are used as another marketing strategy.
