@@ -15,7 +15,9 @@ const IndexPage = ({ data, location }) => {
       </SplashTitle>
       <SEO title="About" />
       <Content>
-        <p><strong>noface(book)</strong> is the incarnation of my <i>boundless disillusionment</i> as a woman of color in tech and UX. Here, you can find my thoughts and references as I connect the dots between tech, society, and justice with a focus on racial justice, feminism, environmentalism, and privacy.</p>
+        <p><strong>noface(book)</strong> is the incarnation of my disillusionment with the tech industry as a first-generation college student and a woman of color from a Southeast Asian refugee family.</p>
+
+        <p>Here, you can find my thoughts and references as I connect the dots between tech, society, and justice, focusing on racial justice, environmentalism, feminism, and privacy.</p>
 
         <p>You can also find some of my old rants on <a href="https://tinyletter.com/noface/archive">Newsletters from Noface.</a></p>
 

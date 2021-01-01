@@ -5,7 +5,7 @@ tags: test
 published: true
 featuredImage: "./mitchell-luo-jz4ca36oJ_M-unsplash.jpg"
 description:
-  Yet another story about how diversity, equity, and inclusion (DEI) efforts are used as another marketing strategy.
+  Dr. Timnit Gebru, Jeff Dean, and "The Paper" at Google.
 ---
 
 > “What I want to say is stop writing your documents because it doesn’t make a difference. The DEI OKRs that we don’t know where they come from (and are never met anyways), the random discussions, the “we need more mentorship” rather than “we need to stop the toxic environments that hinder us from progressing” the constant fighting and education at your cost, they don’t matter. Because there is zero accountability.”[^1]
@@ -24,11 +24,11 @@ In December, the story of Jeff Dean’s retaliation against Dr. Timnit at Google
 
 ### The main characters
 
-1. **The “problem” woman of color (WOC)** — A tokenized woman of color in a predominantly white, often male-dominated industry. The WOC starts out as a valued voice of diversity, but will get typecast with a racial stereotype (i.e., angry Black woman, spicy Latina, passive Asian or dragon lady, etc.).[^4][^5]
+1. **The “problem” woman of color (WOC)** — A tokenized woman of color in a predominantly white, often male-dominated industry. The WOC starts out as a valued voice of diversity, but will get typecast with a racial stereotype (i.e., angry Black woman, spicy Latina, passive Asian or dragon lady, etc.).[^4]
 
 2. **The self-proclaimed white “ally” (SPWA)** — A white person who publicly professes their commitment to diversity and inclusion while their actions suggest otherwise.
 
-3. **The enablers** — Other people within the organization (and often outside as well) who immediately accept the SPWA’s version of events while constantly questioning the WOC.
+3. **The enablers** — Other people within the organization (and often outside as well) who immediately accept the SPWA’s version of events while constantly questioning the WOC. The enablers play a crucial role in allowing this toxic dynamic to fester.
 
 
 ![A diagram of a common experience of racial discrimination towards "problem" women of color.](./woc-workplace.jpg)
@@ -37,7 +37,7 @@ In December, the story of Jeff Dean’s retaliation against Dr. Timnit at Google
 
 
 
-## The story arc
+## A series of predictable events
 
 ### 1. The honeymoon
 
@@ -58,7 +58,7 @@ In December, the story of Jeff Dean’s retaliation against Dr. Timnit at Google
 
 ### 4. Retaliation 
 
-- Jeff Dean fires Dr. Gebru but falsely frames it as a resignation, despite an abundance of receipts from Dr. Gebru and her team proving that she did not resign.[^6]
+- Jeff Dean fires Dr. Gebru but falsely frames it as a resignation, despite an abundance of receipts from Dr. Gebru and her team proving that she did not resign.[^5]
 - Jeff et. al.  doubles down on their smear campaign against Dr. Gebru, painting her as the “angry Black woman” citing behavior “inconsistent with the expectations of a Google manager” thus tearing down her credibility by shifting the focus on her tone and perceived professionalism. Throughout the next couple of days, they scramble to make up other reasons for Dr. Gebru’s [supposed resignation](https://twitter.com/EricaJoy/status/1335675515571617793?s=20).
 - Jeff Dean and Megan Kacholia lead their own “conversation” about anti-racism. Notably, [they did not allow feedback](https://twitter.com/timnitGebru/status/1336340178542063622?s=20), allowing them to further control their narrative and image.
 
@@ -112,7 +112,5 @@ When they behave like the latter, they demonstrate that they don't include diver
 
 [^4]: [Speaking Up As A Woman Of Color At Work](https://www.forbes.com/sites/ruchikatulshyan/2015/02/10/speaking-up-as-a-woman-of-color-at-work/?sh=4a8bbde62ea3) — Ruchika Tulshyan, Forbes
 
-[^5]: [The Bamboo Glass Ceiling](https://slate.com/human-interest/2018/08/asian-american-women-face-a-glass-ceiling-and-a-bamboo-ceiling-at-work.html) — Tiffany Diane Tso, Slate
 
-
-[^6]: [Setting the Record Straight #ISupportTimnit #BelieveBlackWomen](https://googlewalkout.medium.com/setting-the-record-straight-isupporttimnit-believeblackwomen-5d7bbfe4ed90) — Google Walkout For Real Change
+[^5]: [Setting the Record Straight #ISupportTimnit #BelieveBlackWomen](https://googlewalkout.medium.com/setting-the-record-straight-isupporttimnit-believeblackwomen-5d7bbfe4ed90) — Google Walkout For Real Change
